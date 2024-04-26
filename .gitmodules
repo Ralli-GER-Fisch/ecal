@@ -22,9 +22,6 @@
 [submodule "thirdparty/tinyxml2"]
 	path = thirdparty/tinyxml2
 	url = https://github.com/leethomason/tinyxml2
-[submodule "thirdparty/curl"]
-	path = thirdparty/curl
-	url = https://github.com/curl/curl.git
 [submodule "thirdparty/zlib"]
 	path = thirdparty/zlib
 	url = https://github.com/madler/zlib.git
@@ -34,9 +31,6 @@
 [submodule "thirdparty/hdf5"]
 	path = thirdparty/hdf5
 	url = https://github.com/HDFGroup/hdf5.git
-[submodule "thirdparty/termcolor"]
-	path = thirdparty/termcolor
-	url = https://github.com/ikalnytskyi/termcolor.git
 [submodule "thirdparty/recycle"]
 	path = thirdparty/recycle
 	url = https://github.com/steinwurf/recycle.git
