@@ -1,39 +1,52 @@
 [submodule "thirdparty/protobuf"]
 	path = thirdparty/protobuf
 	url = https://github.com/protocolbuffers/protobuf.git
+	shallow = true
 [submodule "thirdparty/asio"]
 	path = thirdparty/asio
 	url = https://github.com/chriskohlhoff/asio.git
+	shallow = true
 [submodule "thirdparty/tclap"]
 	path = thirdparty/tclap
 	url = https://github.com/xguerin/tclap.git
+	shallow = true
 [submodule "thirdparty/simpleini"]
 	path = thirdparty/simpleini
 	url = https://github.com/brofield/simpleini.git
+	shallow = true
 [submodule "thirdparty/spdlog"]
 	path = thirdparty/spdlog
 	url = https://github.com/gabime/spdlog.git
+	shallow = true
 [submodule "thirdparty/googletest"]
 	path = thirdparty/googletest
 	url = https://github.com/google/googletest.git
+	shallow = true
 [submodule "thirdparty/fineftp-server"]
 	path = thirdparty/fineftp-server
 	url = https://github.com/eclipse-ecal/fineftp-server.git
+	shallow = true
 [submodule "thirdparty/tinyxml2"]
 	path = thirdparty/tinyxml2
 	url = https://github.com/leethomason/tinyxml2
+	shallow = true
 [submodule "thirdparty/zlib"]
 	path = thirdparty/zlib
 	url = https://github.com/madler/zlib.git
+	shallow = true
 [submodule "thirdparty/libssh2"]
 	path = thirdparty/libssh2
 	url = https://github.com/libssh2/libssh2.git
+	shallow = true
 [submodule "thirdparty/hdf5"]
 	path = thirdparty/hdf5
 	url = https://github.com/HDFGroup/hdf5.git
+	shallow = true
 [submodule "thirdparty/recycle"]
 	path = thirdparty/recycle
 	url = https://github.com/steinwurf/recycle.git
+	shallow = true
 [submodule "thirdparty/tcp_pubsub"]
 	path = thirdparty/tcp_pubsub
 	url = https://github.com/eclipse-ecal/tcp_pubsub.git
+	shallow = true
