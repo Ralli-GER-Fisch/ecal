@@ -113,7 +113,7 @@ namespace eCAL
         return iterator(*this, entry_infos.end());
       }
 
-    private:
+    // private: // make public to enable fast lookup
       const std::string channel_name;
       std::shared_ptr<experimental::measurement::base::Reader> meas;
       mutable experimental::measurement::base::EntryInfoSet entry_infos;
@@ -194,7 +194,7 @@ namespace eCAL
         bool operator==(const iterator& rhs) const { return it == rhs.it; };
         bool operator!=(const iterator& rhs) const { return it != rhs.it; };
 
-      protected:
+      // protected: // make public for fast access
         IBinaryChannel::iterator it;
         mutable T message;
       };
