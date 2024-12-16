@@ -112,7 +112,7 @@ namespace eCAL
         return iterator(*this, entry_infos.end());
       }
 
-    private:
+    // private: // make public to make access fast TODO: better create getters
       const std::string channel_name;
       std::shared_ptr<eh5::HDF5Meas> meas;
       mutable eh5::EntryInfoSet entry_infos;
@@ -208,7 +208,7 @@ namespace eCAL
         return iterator(binary_channel.end());
       }
 
-    protected:
+    // protected:  // make public to make access fast TODO: better create getters
       IBinaryChannel binary_channel;
       mutable T message;
     };
